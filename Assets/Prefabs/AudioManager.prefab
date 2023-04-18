@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2276708117447564555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1839237896870843315}
+  - component: {fileID: 20145783744580349}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1839237896870843315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2276708117447564555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1555.0836, y: 697.54767, z: -3170.7417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &20145783744580349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2276708117447564555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a26167ecbf9cc40ae2504558985c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: RespawnCD
+    clip: {fileID: 8300000, guid: a2333dc67c3258e48b7d0ed6bb36ba48, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: NormalShot
+    clip: {fileID: 8300000, guid: 51ba7dd253ff2b745af63c4c8545bde7, type: 3}
+    volume: 0.8
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 73ed1b67aea1deb47bef3444a78d9dd8, type: 3}
+    volume: 0.8
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Grunt
+    clip: {fileID: 8300000, guid: 198e32cc5170c31409347d835be03796, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Death
+    clip: {fileID: 8300000, guid: c612b399142997c47944978184012c60, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Spawn
+    clip: {fileID: 8300000, guid: 060b8696e63c88343b0a052faf252313, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: ButtonPress
+    clip: {fileID: 8300000, guid: 17506c3a42b4c934f9d21464ef195822, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: ButtonHover
+    clip: {fileID: 8300000, guid: 666442348ac37a84985bf2982e9cfd2a, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Music
+    clip: {fileID: 8300000, guid: c3522540e75d3664ba7650de7540109f, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
